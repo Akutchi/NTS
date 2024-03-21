@@ -1,5 +1,5 @@
 # NTS
-NTS (NoTypeScript) is a backend for Ada
+NTS (NoTypeScript) is a backend written in Ada (and, once again - should I say this by now ? - to learn more about Ada).
 
 # Structure
 
