@@ -1,0 +1,12 @@
+project NTS is
+
+    for Main use ("server.adb");
+    for Object_Dir use ".objs";
+    for Source_Dirs use ("./src/**");
+
+    package Compiler is
+
+        for Default_Switches ("Ada") use ("-g");
+    end Compiler;
+
+end NTS;
