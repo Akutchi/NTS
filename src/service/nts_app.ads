@@ -23,7 +23,7 @@ private
         Channel: Stream_Access;
 
         Offset : Ada.Streams.Stream_Element_Count;
-        Data   : Ada.Streams.Stream_Element_Array (1 .. 256);
+        Data   : Ada.Streams.Stream_Element_Array (1 .. 1);
 
     end record;
 

@@ -34,9 +34,9 @@ package body Nts_App is
         Accept_Socket(N.Server, N.Socket, N.Address);
         N.Channel := Stream (N.Socket);
 
-        Ada.Streams.Read (N.Channel.All, N.Data, N.Offset);
-        for I in 1 .. N.Offset loop
-            Put (Character'Val (N.Data (I)));
+        loop
+            Ada.Streams.Read (N.Channel.All, N.Data, N.Offset);
+            Put (Character'Val (N.Data (N.Data'First)));
         end loop;
 
     end Listen;
