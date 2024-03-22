@@ -4,6 +4,7 @@ NTS (NoTypeScript) is a backend written in Ada (and, once again - should I say t
 # Structure
 
 The way I will structure it is the same as [express](https://expressjs.com/en/starter/hello-world.html).
+The JSON library used is [json-ada](<https://github.com/onox/json-ada/blob/master/json/src/json-parsers.ads>)
 
 ## Example
 ```ada
